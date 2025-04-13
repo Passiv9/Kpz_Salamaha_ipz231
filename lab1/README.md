@@ -1,5 +1,6 @@
 # 📘 Лабораторна робота №1: 
-## Завдання 1 Варіант 2: Зоопарк
+## Завдання 1 
+**Варіант 2: Зоопарк
 У цій лабораторній роботі реалізована система для обліку тварин, вольєрів, працівників і їжі в зоопарку на мові C#. Вона побудована з урахуванням основних принципів якісного програмування.
 
 ---
@@ -54,7 +55,8 @@
 ```csharp
 private readonly List<IAnimal> _animals;
 private readonly List<IEnclosure> _enclosures;
-private readonly List<IEmployee> _employees;```
+private readonly List<IEmployee> _employees;
+```
 Це дозволяє легко замінити конкретні реалізації без зміни логіки.
 
 ---
@@ -70,7 +72,8 @@ private readonly List<IEmployee> _employees;```
 Приклад використання спільного механізму:
 ```csharp
 Inventory inventory = new Inventory(animals, enclosures, employees);
-inventory.PrintInventory();```
+inventory.PrintInventory();
+```
 ---
 
 ## ✅ 7. Program to Interfaces, not Implementations
@@ -84,9 +87,10 @@ inventory.PrintInventory();```
 📄 **Приклад використання інтерфейсів у коді** — [`Program.cs`](./Program.cs#L10):
 
 ```csharp
-List<IAnimal> animals = new List<IAnimal> { new Lion(), new Elephant() };```
+List<IAnimal> animals = new List<IAnimal> { new Lion(), new Elephant() };
+```
 
  **Результат виконання програми**
-![Результат виконання програми](https://github.com/Passiv9/Kpz_Salamaha_ipz231/blob/main/lab1/image/photo_2025-04-14_01-55-10.jpg)
+![Результат виконання програми](./image/photo_2025-04-14_01-55-10.jpg)
 **UML діаграма**
-![UML діаграма](https://github.com/Passiv9/Kpz_Salamaha_ipz231/blob/main/lab1/image/lab1.drawio.png)
+![UML діаграма](./image/lab1.drawio.png)
