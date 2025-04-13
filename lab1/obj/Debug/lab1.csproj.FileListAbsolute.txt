@@ -1,0 +1,14 @@
+C:\Users\ярослав\source\repos\lab1\lab1\obj\Debug\lab1.csproj.AssemblyReference.cache
+C:\Users\ярослав\source\repos\lab1\lab1\obj\Debug\lab1.csproj.CoreCompileInputs.cache
+C:\Users\ярослав\source\repos\lab1\lab1\bin\Debug\lab1.exe.config
+C:\Users\ярослав\source\repos\lab1\lab1\bin\Debug\lab1.exe
+C:\Users\ярослав\source\repos\lab1\lab1\bin\Debug\lab1.pdb
+C:\Users\ярослав\source\repos\lab1\lab1\obj\Debug\lab1.exe
+C:\Users\ярослав\source\repos\lab1\lab1\obj\Debug\lab1.pdb
+C:\Users\ярослав\source\repos\Kpz_Salamaha_ipz231\lab1\bin\Debug\lab1.exe.config
+C:\Users\ярослав\source\repos\Kpz_Salamaha_ipz231\lab1\bin\Debug\lab1.exe
+C:\Users\ярослав\source\repos\Kpz_Salamaha_ipz231\lab1\bin\Debug\lab1.pdb
+C:\Users\ярослав\source\repos\Kpz_Salamaha_ipz231\lab1\obj\Debug\lab1.csproj.AssemblyReference.cache
+C:\Users\ярослав\source\repos\Kpz_Salamaha_ipz231\lab1\obj\Debug\lab1.csproj.CoreCompileInputs.cache
+C:\Users\ярослав\source\repos\Kpz_Salamaha_ipz231\lab1\obj\Debug\lab1.exe
+C:\Users\ярослав\source\repos\Kpz_Salamaha_ipz231\lab1\obj\Debug\lab1.pdb
