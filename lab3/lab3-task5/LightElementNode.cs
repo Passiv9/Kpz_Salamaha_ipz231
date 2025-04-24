@@ -7,10 +7,12 @@ namespace LightHTML
     public class LightElementNode : LightNode
     {
         public string TagName { get; set; }
-        public string DisplayType { get; set; } // block or inline
+        public string DisplayType { get; set; }
         public bool IsSelfClosing { get; set; }
         public List<string> CssClasses { get; set; }
         public List<LightNode> Children { get; set; }
+
+        private Dictionary<string, List<Action>> eventListeners;
 
         public LightElementNode(string tagName, string displayType = "inline", bool isSelfClosing = false)
         {
@@ -19,6 +21,27 @@ namespace LightHTML
             IsSelfClosing = isSelfClosing;
             CssClasses = new List<string>();
             Children = new List<LightNode>();
+            eventListeners = new Dictionary<string, List<Action>>();
+        }
+
+        public void AddEventListener(string eventName, Action handler)
+        {
+            if (!eventListeners.ContainsKey(eventName))
+            {
+                eventListeners[eventName] = new List<Action>();
+            }
+            eventListeners[eventName].Add(handler);
+        }
+
+        public void DispatchEvent(string eventName)
+        {
+            if (eventListeners.ContainsKey(eventName))
+            {
+                foreach (var handler in eventListeners[eventName])
+                {
+                    handler();
+                }
+            }
         }
 
         public override string GetOuterHTML()
@@ -38,9 +61,7 @@ namespace LightHTML
             else
             {
                 outerHTML.Append(">");
-
                 outerHTML.Append(GetInnerHTML());
-
                 outerHTML.Append("</").Append(TagName).Append(">");
             }
 
