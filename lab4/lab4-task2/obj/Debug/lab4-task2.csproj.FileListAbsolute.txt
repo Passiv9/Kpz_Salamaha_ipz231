@@ -1,0 +1,2 @@
+C:\Users\ярослав\source\repos\Kpz_Salamaha_ipz231\lab4-task2\obj\Debug\lab4-task2.csproj.AssemblyReference.cache
+C:\Users\ярослав\source\repos\Kpz_Salamaha_ipz231\lab4-task2\obj\Debug\lab4-task2.csproj.CoreCompileInputs.cache
