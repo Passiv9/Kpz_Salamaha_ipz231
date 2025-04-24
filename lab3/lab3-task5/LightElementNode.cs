@@ -7,7 +7,7 @@ namespace LightHTML
     public class LightElementNode : LightNode
     {
         public string TagName { get; set; }
-        public string DisplayType { get; set; } // block or inline
+        public string DisplayType { get; set; } 
         public bool IsSelfClosing { get; set; }
         public List<string> CssClasses { get; set; }
         public List<LightNode> Children { get; set; }
