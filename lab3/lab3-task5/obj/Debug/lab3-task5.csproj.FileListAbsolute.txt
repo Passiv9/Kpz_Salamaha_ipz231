@@ -5,3 +5,10 @@ C:\Users\ярослав\source\repos\Kpz_Salamaha_ipz231\lab3-task5\obj\Debug\la
 C:\Users\ярослав\source\repos\Kpz_Salamaha_ipz231\lab3-task5\obj\Debug\lab3-task5.csproj.CoreCompileInputs.cache
 C:\Users\ярослав\source\repos\Kpz_Salamaha_ipz231\lab3-task5\obj\Debug\lab3-task5.exe
 C:\Users\ярослав\source\repos\Kpz_Salamaha_ipz231\lab3-task5\obj\Debug\lab3-task5.pdb
+C:\Users\ярослав\source\repos\Kpz_Salamaha_ipz231\lab3\lab3-task5\bin\Debug\lab3-task5.exe.config
+C:\Users\ярослав\source\repos\Kpz_Salamaha_ipz231\lab3\lab3-task5\bin\Debug\lab3-task5.exe
+C:\Users\ярослав\source\repos\Kpz_Salamaha_ipz231\lab3\lab3-task5\bin\Debug\lab3-task5.pdb
+C:\Users\ярослав\source\repos\Kpz_Salamaha_ipz231\lab3\lab3-task5\obj\Debug\lab3-task5.csproj.AssemblyReference.cache
+C:\Users\ярослав\source\repos\Kpz_Salamaha_ipz231\lab3\lab3-task5\obj\Debug\lab3-task5.csproj.CoreCompileInputs.cache
+C:\Users\ярослав\source\repos\Kpz_Salamaha_ipz231\lab3\lab3-task5\obj\Debug\lab3-task5.exe
+C:\Users\ярослав\source\repos\Kpz_Salamaha_ipz231\lab3\lab3-task5\obj\Debug\lab3-task5.pdb

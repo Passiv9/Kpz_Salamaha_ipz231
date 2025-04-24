@@ -23,7 +23,16 @@ namespace LightHTML
 
             div.AddChild(ul);
 
+            
+            div.AddEventListener("click", () => Console.WriteLine("Div was clicked!"));
+            li1.AddEventListener("mouseover", () => Console.WriteLine("Mouse is over Item 1"));
+
+           
             Console.WriteLine(div.GetOuterHTML());
+
+           
+            div.DispatchEvent("click");
+            li1.DispatchEvent("mouseover");
         }
     }
 }
