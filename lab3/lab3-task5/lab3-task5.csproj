@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LightElementNode.cs" />
+    <Compile Include="LightImageNode.cs" />
     <Compile Include="LightNode.cs" />
     <Compile Include="LightTextNode..cs" />
     <Compile Include="Program.cs" />

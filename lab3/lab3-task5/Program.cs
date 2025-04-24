@@ -23,16 +23,15 @@ namespace LightHTML
 
             div.AddChild(ul);
 
-            
-            div.AddEventListener("click", () => Console.WriteLine("Div was clicked!"));
-            li1.AddEventListener("mouseover", () => Console.WriteLine("Mouse is over Item 1"));
+            var imageUrl = new LightImageNode("https://pustunchik.ua/uploads/school/cache/5e23cb2f903d5740ed1ba0f5497d68b8.jpg");
+            imageUrl.LoadImage();
+            div.AddChild(imageUrl);
 
-           
+            var imageFile = new LightImageNode("C:\\path\\to\\local\\image.jpg");
+            imageFile.LoadImage();
+            div.AddChild(imageFile);
+
             Console.WriteLine(div.GetOuterHTML());
-
-           
-            div.DispatchEvent("click");
-            li1.DispatchEvent("mouseover");
         }
     }
 }
